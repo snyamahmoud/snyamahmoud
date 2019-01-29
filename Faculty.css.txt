@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Examples</title>
+            <link rel="stylesheet" href="file.css"/>
+            <script src="file.js"></script>
+            <!--[if lt IE9]->
+            <script src="html5 shiv.min.js"></script>
+            <![end if]-->
+            
+        </head>
+        <body>
+         <header class="main">
+            <h1><i>Faculty Of Science</i></h1>
+            <img src="file:///D:/course%20web%20design/SCI_en.png" style="width: 15%;position: absolute;
+               top: 10px;">
+         </header>
+         <nav>
+            <ul>
+                <li>Council</li>
+                <li>Administration</li>
+                <li>About The Faculty</li>
+                <li>Faculty Staff</li>
+                <li>Faculty Department</li>
+                <li>Students</li>
+                <li>Research</li>
+            </ul>
+         </nav>
+         <main>
+            <p><i><b>Welcome To Faculty Of Science Minufya Universty</b></i></p>
+         </main>
+         <article>
+            <header>
+                <h3>Departments *</h3>
+                <p>Scientific science:-</p>
+                <ol type="A">
+                    <li>Chimestry</li>
+                    <li>GeoChimestry</li>
+                    <li>PiologyChimestry</li>
+                    <li>Micropiology</li>
+                    <li>botany</li>
+                    <li>Zoology</li>
+                </ol>
+            </header>
+            <p>This is Departments of Scientific science</p>
+         </article>
+         <article>
+            <header>
+                <h3>Departments **</h3>
+                <p>Scientific Mathmatics:-</p>
+                <ol type="I">
+                    <li>Computer Science</li>
+                    <li>Computer physics</li>
+                    <li>physics</li>
+                    <li>Mathmatics</li>
+                    <li>Geology</li>
+                    <li>Chimestry and physics</li>
+                </ol>
+            </header>
+              <p>This is Departments of Scientific Mathmatics</p>
+
+         </article>
+         <section>
+            <h3>Levels Of Departments</h3>
+            <details open>
+                <summary>Levels</summary>
+                <ul>
+                    <li>Less than 36 hour</li>
+                    <li>Less than 72 hour</li>
+                    <li>Less than 108 hour</li>
+                    <li>Greater than 108 hour</li>
+                    <li>Scientifically observant <br>Less Than 12 hour</li>
+                </ul>
+            </details>
+            <div>
+                Level <progress value="7" max="10"></progress>
+            </div>
+         </section>
+         <section>
+            <h3>cumulative rate</h3>
+            <details open>
+                <summary>GPA</summary>
+                <ul>
+                    <li>Good From 60%</li>
+                    <li>Good high From 65%</li>
+                    <li>Very Good From 75%</li>
+                    <li>Very good with honors From 80%</li>
+                    <li>excellent From 85%</li>
+                    <li>excellent with honors From 90%</li>
+
+                </ul>
+            </details>
+            <div>
+               GPA <meter min='0' max='1' value='.7' low='.4' high='.85' optimum='.6'></meter> 
+            </div>
+         </section>
+         
+         <footer>
+            <span>To Get Information About Site Visit</span><a href="#">Faculty Of Science</a><br>
+         </footer>
+        </body>
+    </html>
+
+
+
+
+.main
+{
+ background-color:#ff9800;
+ padding:20px;
+ 
+}
+.main h1
+{
+ color: white;
+ text-align: center;
+ font-size: xx-large;
+ 
+}
+
+
+nav
+{
+ background-color:#a26c1bdb;
+ padding:15px;
+  text-align: center;
+  color: white
+
+}
+nav ul
+{
+ list-style: none;
+ 
+}
+nav ul li
+{
+ margin: 20px;
+ display: inline-block;
+
+}
+
+main
+{
+ color:black;
+ text-align: center;
+ font-size: larger;
+ 
+}
+main p
+{
+ font-size: xx-large;
+ font-weight: bolder
+}
+main p:hover
+{
+ color: green;
+ text-shadow: 2px 3px 4px #080,
+              3px 4px 5px red,
+              4px 5px 6px blue
+ 
+}
+article
+{
+ background-color:#F6F6F6;
+ margin: 50px;
+ border: 1px solid #ccc;
+ width: 35%;
+ display: inline-block
+}
+article header
+{
+ background-color:#ff9800;
+ padding: 10px
+}
+article p
+{
+ padding: 10px
+}
+footer
+{
+ background-color:#ffc107;
+ color: white;
+ padding: 15px;
+ text-align: center
+ 
+}
+footer a
+{
+ text-align: center;
+ color: red;
+ font-size: x-large;
+  text-decoration: none;
+
+}
+footer a:hover
+{
+ text-decoration: underline
+}
+footer a:active
+{
+ text-decoration: none;
+ color: green;
+ font-weight: bolder
+}
+section
+{
+  padding: 30px;
+  width: 30%;
+  background-color: bisque;
+  margin: 50px;
+  display: inline-block
+}

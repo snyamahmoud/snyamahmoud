@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>javascript Tutorials</title>
+            <link rel="stylesheet" href="file.css"/>
+        </head>
+        <body>
+            <div>
+               <input type="text" id="n1"><br><br>
+                <input type="text" id="n2" style="position: relative;top: -27px;left: 46%;"><br><br>
+            
+               <select id="operators">
+                <option>+</option
+                <br>
+                <option>/</option>
+                <option>*</option>
+                <option>-</option>
+
+               </select>
+              <br><br>
+             <button onclick="calc();">=</button>
+             <input type="text" id="result" style="position: relative;top: 26px;left: -7px;width: 41%;text-align: center;">
+            </div>
+           
+
+            
+           
+            
+            <script src="file.js"></script>
+
+        </body>
+    </html>
+---------------------------------------------------------------
+/*function function name(parameter1,parameter2){
+    "use strict";
+    code
+}
+
+parseFloat ==>float num(.5)
+parseINT ==> int num
+*/
+
+-------------------------------------------------------------------------
+#js
+
+
+function calc(){
+    "use strict";
+    
+    var n1 = parseFloat(document.getElementById('n1').value);
+     var n2 = parseFloat(document.getElementById('n2').value);
+      var oper =document.getElementById('operators').value;
+      
+       if (oper==="+") {
+        
+            document.getElementById('result').value= n1+n2 ;
+	
+     }
+     
+      if (oper==="-") {
+        
+          document.getElementById('result').value= n1-n2 ;
+	
+     }
+     
+       if (oper==="/") {
+        
+          document.getElementById('result').value= n1/n2 ;
+	
+     }
+     
+       if (oper==="*") {
+        
+          document.getElementById('result').value= n1*n2 ;
+	
+     }
+}
+calc();
+  
+  --------------------------------------------------------------------------
+#Css
+
+div
+{
+    background-color: #00BCD4;
+    margin: 50px;
+    width: 49%;
+    height: 175px;
+}
+div input
+{
+     position: relative;
+    top: 11px;
+    left: 36px;
+    width: 26%;
+}
+div select
+{
+  position: relative;
+    top: -24px;
+    left: 122px;
+    background-color: #009688;
+    width: 13%;
+}
+div button
+{
+      position: relative;
+    top: -21px;
+    left: 106px;
+    width: 26%;
+    height: 20px;
+    background-color: cadetblue;
+}  
+    
+   
+            

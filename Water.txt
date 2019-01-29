@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Examples</title>
+            <link rel="stylesheet" href="file.css"/>
+            <script src="file.js"></script>
+            <!--[if lt IE9]->
+            <script src="html5 shiv.min.js"></script>
+            <![end if]-->
+            
+        </head>
+        <body>
+             <header class="main">
+               <p> Water Lifeline</p>
+             </header>
+                <nav>
+                  <ul>
+                   <li>Home</li>
+                   <li> Our Services</li>
+                   <li>About Us</li>
+                   <li>Contact</li>
+                   <li>Our Team</li>
+                   <li>Help</li>
+                 </ul>
+                </nav>
+                <main>
+                    <img src="file:///D:/course%20web%20design/water-life-crop.jpg">
+                </main>
+                <article>
+                    <header>
+                        <p>
+                        Water, a substance composed of the chemical elements hydrogen and oxygen and existing in gaseous,
+                        liquid, and solid states. It is one of the most plentiful and essential of compounds. A tasteless
+                        and odourless liquid at room temperature, it has the important ability to dissolve many other substances.
+                        Indeed, the versatility of water as a solvent is essential to living organisms. Life is believed to have
+                        originated in the aqueous solutions of the world’s oceans, and living organisms depend on aqueous solutions,
+                        such as blood and digestive juices, for biological processes. In small quantities water appears colourless,
+                        but water actually has an intrinsic blue colour caused by slight absorption of light at red wavelengths.
+
+                       Although the molecules of water are simple in structure (H2O), the physical and chemical properties of the
+                       compound are extraordinarily complicated, and they are not typical of most substances found on Earth. For example,
+                       although the sight of ice cubes floating in a glass of ice water is commonplace, such behaviour is unusual for chemical
+                       entities. For almost every other compound, the solid state is denser than the liquid state; thus, the solid would sink to
+                       the bottom of the liquid. The fact that ice floats on water is exceedingly important in the natural world, because the ice that
+                       forms on ponds and lakes in cold areas of the world acts as an insulating barrier that protects the aquatic life below. If ice were
+                       denser than liquid water, ice forming on a pond would sink, thereby exposing more water to the cold temperature. Thus, the pond would
+                       eventually freeze throughout, killing all the life-forms present.
+
+                        Water occurs as a liquid on the surface of Earth under normal conditions, which makes it invaluable for transportation, for recreation,
+                        and as a habitat for a myriad of plants and animals. The fact that water is readily changed to a vapour (gas) allows it to be transported
+                        through the atmosphere from the oceans to inland areas where it condenses and, as rain, nourishes plant and animal life. (See hydrosphere:
+                        The hydrologic cycle for a description of the cycle by which water is transferred over Earth.)</p>
+                    </header>
+                    <section>
+                        <figure>
+                            <img src="file:///D:/course%20web%20design/Originals/1475-004-69669AFD.jpg">
+                                 <figcaption>
+                                    <span>
+                                        In the hydrologic cycle, water is transferred between the land surface,
+                                          the ocean, and the atmosphere. The numbers on the arrows indicate relative
+                                          water fluxes.
+                                    </span>
+                                 </figcaption>
+                        </figure>
+                        
+                    </section>
+                </article>
+                
+                <footer>
+                    <h3>Copyright @ 2105 Water Lifeline. All rights reserved | Privacy Policy</h3>
+                </footer>
+         
+        </body>
+    </html>
+
+
+body
+{
+ perspective: 600px;
+}
+
+.main
+{
+ text-align: center;
+ color: #AAA;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ font-size: xx-large;
+ font-weight: bolder
+}
+nav
+{
+ background-color: #2b8692;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: x-large;
+  margin: 50px auto;
+    width: 50%;
+}
+nav ul
+{
+ text-align: center;
+}
+nav ul li
+{
+ margin: 37px;
+ display: inline-block
+
+}
+main
+{
+   margin: 50px auto;
+   position: relative;
+   top: -50px;
+   left: 628px;
+}
+main img
+{
+     width: 50%;
+     
+
+}
+article
+{
+ background-color: #CCC;
+ width: 50%;
+ position: relative;
+ margin: 50px auto;
+    top: -104px;
+    left: 0px;
+ 
+}
+article header
+{
+ margin: 15px;
+ padding: 10px;
+}
+article header p
+{
+     color: black;
+    line-height: 38px;
+    font-size: xx-large;
+    column-count: 3;
+    column-gap: 40px;
+}
+section
+{
+     width: 100%;
+}
+section figure img
+{
+     width: 100%;
+}
+section figure figcaption 
+{
+ padding: 40px;
+    color: blueviolet;
+    font-size: xx-large;
+    border: 2px solid #AAA;
+}
+footer
+{
+     background-color: #333;
+    width: 50%;
+    padding: 30px;
+    margin: 50px auto;
+    position: relative;
+    top: -153px;
+    left: 30px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}

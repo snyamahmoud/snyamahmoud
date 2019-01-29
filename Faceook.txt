@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Examples</title>
+            <link rel="stylesheet" href="file.css"/>
+            <!--[if lt IE9]->
+            <script src="html5 shiv.min.js"></script>
+            <![end if]-->
+            
+        </head>
+        <body>
+            <header class="main">
+                <h1>Facebook</h1>
+                <label>Email or Phone</label>
+                <input type="text" name="Email or Phone">
+                <label style="position: relative;right: 302px;">Password</label>
+                <input type="text" name="Password">
+                <a href="#">Forgotten account</a>
+                <input type="submit" value="Login" style="position: relative;left: 828px;width: 150px;color: white;
+                       background-color: blue;font-size: 44px;">
+
+            </header>
+            
+             <main>
+                <h2>Create an account</h2>
+                <p>its free and always will be</p>
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Surname"><br>
+                <input type="text" placeholder="Mobile number or email address" style="width: 104%;">
+                <input type="password" placeholder="Password" style="width: 104%;"><br>
+                <br>
+                <p style="position: relative;top: -242px;">birthday</p>
+                <select>
+                    
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    
+                </select>
+                <select>
+                    <option>Januyary</option>
+                    <option>Feb</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>Julay</option>
+                    <option>Ogast</option>
+                </select>
+                <select>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2003</option>
+                </select>
+                <p style="position: relative; top: -482px;left: 838px;color: blue;font-weight: 200;font-size: 51px;">
+                    Why do i need to provide my<br> date of birth?</p>
+                  <img src="file:///D:/image/capture-20190101-102520.png" style="position: relative;top: -1155px;
+                             right: 2279px;width: 91%;">
+                  
+                  <h3 style="position: relative; right: 120%;top: -1227px;font-size: 104px;color: blue;">Thanks for Stopping by!</h3>
+                  <span style="position: relative;right: 120%; top: -1292px; font-size: 69px; color: black;letter-spacing: 2px;;">We hope to see you again soon</span>
+            </main>
+             <article>
+                <input type="radio" name="browser">Female
+                <input type="radio" name="browser">male
+                <p style="font-size: 50px;color: #AAA;">by clicking sign up ,you agree to our,<mark>Terms,Data policy</mark>and<br>
+                <mark>cookie policy</mark> you may recive SMS notifications from us and<br>can opt out at any time </p>
+                <input type="button" value="Sign Up" style="width: 583px;height: 200px;padding: 58px;color: white;font-size: 93px;
+                             background-color: #25a725;border-radius: 20px;position: relative;top: 48px;text-align: center">
+                
+                <a href="#" style="text-decoration: none;color: blue;position: relative;top: 294px;right: 13%;">
+                    create a page</a><span style="text-decoration: none; color: black; position: relative;top: 294px;
+                         opacity: .5;right: 13%;">for celebrity,band or business </span>
+             </article>
+             <footer>
+                <span>English(UK)</span>
+                <a href="#">ÇáÚÑÈíå</a>
+                <a href="#">francais(france)</a>
+                <a href="#">italialo</a>
+                <a href="#">Deutsch</a>
+                <a href="#">Pycckwn</a>
+                <a href="#">Espanol</a>
+                <a href="#">basaha</a>
+                <a href="#">Turkce</a>
+                <input type="submit" value="+" style="width: 63px;height: 55px;margin-left: 59px;font-size: 40px"><br><br><br>
+                 <a href="#">signup</a>
+                <a href="#">login</a>
+                <a href="#">Message</a>
+                <a href="#">FacebookLite</a>
+                <a href="#">Mobil</a>
+                <a href="#">FindFrindes</a>
+                <a href="#">People</a>
+                <a href="#">Profile</a>
+                <a href="#">Pages</a>
+                <a href="#">Pagecatogires</a>
+                <a href="#">Places</a>
+                <a href="#">Games</a>
+                <a href="#">Location</a>
+                <a href="#">MarketPlace</a>
+                <a href="#">Groubs</a>
+                <a href="#">instgram</a>
+                <a href="#">Local</a>
+                <a href="#">about</a>
+                <a href="#">Create ad</a>
+                <a href="#">Create page</a>
+                <a href="#">Develops</a>
+                <a href="#">Careers</a>
+                <a href="#">Prives</a>
+                <a href="#">public</a>
+                <a href="#">Terma</a>
+                <a href="#">Loginhelp</a>
+                <a href="#">Help</a>
+                
+                 <p style="color: #AAA">Facebook @ 2009</p> 
+             </footer>
+             
+         <script src="file.js"></script>
+
+        </body>
+    </html>
+
+
+
+
+
+body
+{
+  padding:0;
+  margin: 0;
+  background-color: #6495ed26;
+  overflow-x: hidden
+
+}
+
+.main
+{
+  background-color:#4646af;
+  padding: 1px
+}
+.main h1
+{
+  color: white;
+  font-size: 130px;
+  position: relative;
+  left: 560px;
+  text-transform: lowercase;
+  
+}
+.main input
+{
+    float: right;
+    top: -180px;
+    position: relative;
+    right: 418px;
+    padding: 19px;
+    margin-left: -161px;
+    width: 379px
+}
+.main label
+{
+     float: right;
+    position: relative;
+    top: -250px;
+    right: 1279px;
+    color: white;
+    font-size: 56px; 
+}
+.main a
+{
+      color: white;
+    float: right;
+    position: relative;
+    top: -82px;
+    left: 263px;
+    font-size: 44px;
+    text-decoration: none;
+    opacity: .5;
+}
+
+ main
+{
+  float: right;
+    color: black;
+    font-size: 70px;
+    position: relative;
+    left: 1028px;
+    top: 197px;
+}
+ main h2
+{
+  font-size: 150px;
+}
+ main p
+{
+  position: relative;
+    left: 140px;
+    top: -116px;
+    font-weight: bolder;
+}
+ main input
+{
+      width: 717px;
+    padding: 24px;
+    color: #9a9090fa;
+    background-color: #35332f17;
+    font-size: 67px;
+    border-radius: 17px;
+    margin-top: 47px;
+    position: relative;
+    top: -151px;
+}
+select
+{
+    width: 200px;
+    height: 83px;
+    color: black;
+    font-size: 65px;
+    position: relative;
+    top: -280px;
+    left: 125px;
+}
+article
+{
+      position: relative;
+    top: 1555px;
+    left: 67%;
+    font-size: 79px;
+}
+article input
+{
+  padding: 10px;
+    width: 106px;
+    height: 50px
+}
+article p mark
+{
+ color: blue;
+ background-color: #0000ff00;
+}
+footer
+{
+ position: relative;
+    top: 3185px;
+    background-color: white;
+    padding: 46px;
+    font-size: 62px;
+    color: blue;
+     display: table-row-group;
+     text-indent: 176px;
+}
+footer a
+{
+ text-decoration: none;
+    color: blue;
+    margin-left: 36px;
+}
+

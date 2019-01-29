@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Examples</title>
+            <link rel="stylesheet" href="file.css"/>
+            <!--[if lt IE9]->
+            <script src="html5 shiv.min.js"></script>
+            <![end if]-->
+            
+        </head>
+        <body>
+            <div>
+              <img src="file:///D:/image/capture-20190102-202602.png" style="position: relative;top: 623px;left: 13%;width: 123px;"><h1>Follow your interests.</h1>
+              <img src="file:///D:/image/capture-20190102-202654.png" style="width: 123px;position: relative;top: 623px;left: 13%;"><h1>Hear what people are talking about.</h1>
+             <img src="file:///D:/image/capture-20190102-202719.png" style="width: 123px;position: relative;top: 623px;left: 13%;"> <h1>Join the conversation</h1>
+            </div>
+            <header class="main">
+                <input type="text" placeholder="Phone,Mail or Username" style="text-align: center;">
+                <input type="text" placeholder="Password" style="margin-left: 26px;text-align: center;">
+                <span>Forget Password?</span>
+                <input type="button" value="Log in" style="margin-left: 45px; width: 28%; border-radius: 29%; color: #00BCD4;">
+
+            </header>
+            <main>
+                <img src="file:///D:/image/capture-20190102-212239.png">
+                <h2>see whats happening in<br> the world right now?</h2>
+            </main>
+            <footer>
+                <p>Join Twitter today.</p>
+                <input type="button" value="sign up" style="position: relative; top: -875px; left: 199%;
+                        width: 183%;height: 136px;border-radius: 9%;background-color: #2196F3;font-size: 88px; color: white;">
+                <input type="button" value="log in" style="position: relative;top: -770px;left: 195%;width: 183%;
+                            height: 136px;border-radius: 9%;font-size: 88px;color: #2196F3;background-color: white;">
+            </footer>
+            
+            <script src="file.js"></script>
+
+        </body>
+    </html>
+
+
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+div
+{
+      width: 44%;
+    height: 2500px;
+    background-color: #2196f3;
+}
+div h1
+{
+    color: white;
+    font-size: 89px;
+    position: relative;
+    top: 427px;
+    left: 19%;  
+}
+.main
+{
+    float: right;
+    position: relative;
+    top: -2318px;
+    right: 12%;
+    display: inline-flex;
+
+
+}
+.main input
+{
+      width: 62%;
+    height: 182px;
+    color: black;
+    font-size: 57px;
+    font-weight: bolder;  
+}
+.main span
+{
+  position: relative;
+    top: 212px;
+    right: 30%;
+    font-size: 39px;
+    color: #ccc;  
+}
+main
+{
+   float: right; 
+}
+main img
+{
+    position: relative;
+    top: -1888px;
+    left: 71%;
+    width: 23%; 
+}
+main h2
+{
+   position: relative;
+    top: -1838px;
+    left: 63%;
+    font-size: 115px;
+    font-weight: bolder;
+    text-transform: capitalize; 
+}
+footer
+{
+        float: right;
+
+}
+footer p
+{
+     position: relative;
+    top: -841px;
+    left: 201%;
+    font-size: 95px;
+    font-weight: bolder; 
+}
+

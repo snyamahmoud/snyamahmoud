@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>El-Basma-Specialized-Hospital</title>
+            <link rel="stylesheet" href="file.css"/>
+            <script src="file.js"></script>
+        </head>
+        <body>
+            <div>
+                <header class="main">
+                    <h1>„” ‘›Ì «·»‹”„… «· Œ’’Ì</h1>
+                </header>
+                <section>
+                    <img src="file:///D:/Logo/%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D9%84.jpg">
+                    <img src="file:///D:/Logo/50706009_2165712503505803_1364717779470516224_n.png" style="width: 17%;
+    height: 136px;
+    border-radius: 50%;
+    position: relative;
+    top: -506px;">
+                </section>
+                <article class="demo">
+                    <p>⁄Ì«œ«  «· Ã„Ì· »œÊ‰ Ã—«Õ…</p>
+                </article>
+                <footer>
+                    <h2><b>«·⁄‰Ê«‰/ </b>„‰Ê› ‘«—⁄ ⁄Ì«œ… «Œ— ”Ê— «·„Õﬂ„…</h2>
+                    <h2 style="position: relative; top: -44px; left: 37%; color: deepskyblue; letter-spacing: 2px;"><b>«· ·Ì›Ê‰/ </b>01061011332</h2>
+
+                </footer>
+            </div>
+          
+         
+      
+        
+            
+          
+        </body>
+    </html>
+
+
+
+
+div
+{
+    width: 66%;
+    height: 500px;
+    background-color: #cccccc54;
+    margin: 50px auto;
+    border: 1px solid #aaa;
+}
+.main
+{
+    width: 37%;
+    height: 171px;
+    background-color: #2697f1;
+    float: right;
+    border-bottom-left-radius: 163%;
+}
+.main h1
+{
+    color: white;
+    font-size: 27px;
+    position: relative;
+    top: 25px;
+    left: 63px;
+    transform: skew(30deg) rotate(-14deg);
+    font-weight: bolder;
+}
+section img
+{
+    width: 95%;
+    height: 331px;
+    position: relative;
+    top: -172px;
+    border-top-right-radius: 162%;
+    box-shadow: 1px 1px 12px #ff9800fc, 1px 6px 9px #2196F3;
+
+}
+.demo
+{
+    width: 49%;
+    height: 171px;
+    background-color: #2697f1;
+    position: relative;
+    top: -347px;
+    border-top-right-radius: 114%;
+}
+.demo p
+{
+    position: relative;
+    top: 64px;
+    left: 0px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    transform: skew(23deg) rotate(-17deg);
+}
+footer
+{
+    width: 51%;
+    height: 80px;
+    position: relative;
+    top: -425px;
+    left: 49%;
+    background-color: #2196f300;
+    border-top-left-radius: 61%;
+    border-top-right-radius: 50%;
+}
+footer h2
+{
+    position: relative;
+    top: -41px;
+    left: 11%;
+    color: deepskyblue;
+    font-weight: 500;
+}
+
+
+

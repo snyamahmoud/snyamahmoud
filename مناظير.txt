@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>El-Basma-Specialized-Hospital</title>
+            <link rel="stylesheet" href="file.css"/>
+            <script src="file.js"></script>
+        </head>
+        <body>
+            <div>
+                <header class="main">
+                    <h1>„” ‘›Ì «·»”„… «· Œ’’Ì</h1>
+                    <img src="file:///D:/Logo/50706009_2165712503505803_1364717779470516224_n.png">
+                </header>
+                <article>
+                    <img src="file:///D:/Logo/welcome.jpg" style="width: 100%;border-top-right-radius: 118%;">
+                    <p>⁄Ì«œ«  Ã—«Õ«  «·„‰«ŸÌ—</p>
+                </article>
+                <footer>
+                    <img src="file:///D:/Logo/output/download.jpg">
+                    <p>„‰Ê› ‘«—⁄ ⁄Ì«œ… «Œ— ”Ê— «·„Õﬂ„…</p>
+                    <img src="file:///D:/Logo/phone-logo-telephone-logo-computer-icons-clip-art-phone-icon-png-download-templates.jpg"
+                         style="position: relative;top: -33px;right: 56%;">
+                    <p style="position: relative;top: -27px;left: 25%;font-size: 20px;color: white;">01061011332</p>
+                </footer>
+                
+            </div>
+      
+          
+         
+      
+        
+            
+          
+        </body>
+    </html>
+
+
+div
+{
+    width: 61%;
+    height: 470px;
+    margin: 50px auto;
+    background-color: #00bfff00;
+    border: 1px solid #ccc;
+
+}
+.main
+{
+    width: 100%;
+    height: 86px;
+    background-color: #00bffff5;
+    position: relative;
+    top: -23px;
+}
+.main h1
+{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 12%;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+}
+.main img
+{
+    width: 11%;
+    border-radius: 50%;
+    position: relative;
+    top: -65px;
+    left: 5%;
+}
+article p
+{
+    position: relative;
+    top: -299px;
+    left: 69%;
+    font-size: 28px;
+    color: deepskyblue;
+    font-weight: bolder;
+    font-style: italic; 
+}
+footer
+{
+    width: 100%;
+    height: 64px;
+    position: relative;
+    top: -92px;
+    background-color: lightskyblue;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 47%
+    
+}
+footer img
+{
+   float: right;
+    position: relative;
+    top: 18px;
+    right: 95px;
+    border-radius: 100%;
+    width: 3%;
+    height: 30px;
+}
+footer p
+{
+    position: relative;
+    top: 17px;
+    left: 50%;
+    font-size: 22px;
+    color: white;
+}

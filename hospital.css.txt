@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>El-Basma-Specialized-Hospital</title>
+            <link rel="stylesheet" href="file.css"/>
+            <script src="file.js"></script>
+        </head>
+        <body>
+            <div>
+                 <header class="main">
+                    <div class="text">
+                        <p>„‹‹—ﬂ‹“ Ã‹—«Õ‹«  «·√Ê—«„</p>
+                        <h3><mark style="background-color: aquamarine;">«·‹⁄‰Ê«‰:</mark>„‹‰Ê› / ‘‹«—⁄ ⁄Ì«œ… «Œ— ”‹Ê— «·„Õﬂ„…</h3>
+                        <h3 style="position: relative;top: 71px;left: 44%;letter-spacing: 2px;"> ‹·Ì›Ê‰ :</mark>01061011332</h3>
+                        <h1>„‹” ‹‘‹›Ì <br> «·‹»‹”‹„‹… <br> «·‹ ‹Œ’’Ì</h1>
+                    </div>
+            
+                  </header>
+            </div>
+        
+            
+          
+        </body>
+    </html>
+
+
+div
+{
+ width: 47%;
+  background-color: #cccccc2b;
+  margin: 50px auto;
+  height:437px;
+  border-bottom-left-radius: 45%;
+}
+
+.main
+{
+    width: 100%;
+    background-image: url(file:///D:/image/20160614_110237_20160324_101401_20151210_111634_doctors-organ-harvest.jpg);
+    height: 398px;
+    background-repeat: no-repeat;
+    border-top-right-radius: 84%;
+  
+}
+.main .text
+{
+     width: 88%;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: white;
+    position: relative;
+    top: 167px;
+    left: -6%;
+    text-align: center;
+    opacity: .5;
+  
+}
+.main .text p
+{
+    font-weight: bolder;
+    font-size: 60px;
+    position: relative;
+    top: 25px;
+    font-style: italic;
+}
+.main .text h3
+{
+    position: relative;
+    top: 84px;
+    left: 29%;
+    color: darkblue;
+    letter-spacing: 1px;
+}
+
+.main .text h1
+{
+ color: cornflowerblue;
+    position: relative;
+    top: -356px;
+    left: 50%;
+    font-size: x-large;
+    text-shadow: 1px 2px 3px #053c67,
+                 2px 3px 1px #053c67;
+    line-height: 45px;           
+}

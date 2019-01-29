@@ -1,0 +1,73 @@
+ <header>
+                <img src="file:///D:/Logo/22.png">
+                <p>El-Basma-Specialized-Hospital</p>
+            </header>
+            <nav>
+                <img src="file:///D:/Logo/98098834-ear-nose-throat-examining-ent-doctor-with-a-child-and-endoscope-otolaryngology.jpg">
+                <img src="file:///D:/Logo/capture-20190122-213526.png" style="width: 244px;height: 146px;position: relative;top: -180px;left: 4%;border-radius: 50%;opacity: .5;">
+                <p>⁄‹Ì«œ«  <br> «·√‰› Ê«·√–‰<br> «·‹Õ‹‰‹Ã—…</p>
+            </nav>
+            <footer>
+                <h1 style="position: relative;top: 4px;left: 347px;font-size: 21px;;"><mark><i>«·‹⁄‹‰Ê«‰:</i></mark> „‹‰Ê›/ ‘‹«—⁄ ⁄‹Ì«œ… «Œ‹— ”‹Ê— «·„‹Õ‹ﬂ„…</h1>
+                <h1 style="position: relative;top: -7px;left: 247px;font-size: 22px;;"><mark><i>«·„Ê»«Ì·:</i></mark> 01061011332 - 048/3662870 - 048/3662990</h1>
+
+            </footer>
+            
+header
+{
+    width: 70%;
+    width: 57%;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin: 50px auto;
+
+}
+header img
+{
+    width: 10%;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 49px;
+}
+header p
+{
+    color: aliceblue;
+    position: relative;
+    top: -5px;
+    left: 10px;  
+}
+nav
+{
+    width: 57%;
+    background-color: #ccc;
+    margin: 50px auto;
+    height: 400px;
+    position: relative;
+    top: -50px;
+}
+nav img
+{
+width: 100%;
+height: 400px;
+}
+nav p
+{
+  position: relative;
+    top: -343px;
+    left: 96px;
+    font-size: 30px;
+    color: cornflowerblue;
+    font-style: italic;
+    font-weight: bolder;  
+}
+footer
+{
+     width: 57%;
+    background-color: cornflowerblue;
+    margin: 50px auto;
+    height: 70px;
+    position: relative;
+    top: -100px;
+    opacity: .5;  
+}

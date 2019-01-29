@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>El-Basma-Specialized-Hospital</title>
+            <link rel="stylesheet" href="file.css"/>
+            <script src="file.js"></script>
+        </head>
+        <body>
+            <div>
+                <h1>Our hope is to laugh at you</h1>
+                <h3>El-Basma-Specialized-Hospital</h3>
+                <img src="file:///D:/Project/capture-20190120-172332.png" style="position: relative;top: -92px;left:31px;width: 30%;">
+                <p>Welcome</p>
+            </div>
+        
+            
+          
+        </body>
+    </html>
+
+div
+{
+    width: 68%;
+    background-image: url(file:///D:/Logo/maraaa1.jpg);
+    margin: 50px auto;
+    height: 626px
+ 
+}
+div h1
+{
+    color: cornflowerblue;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    top: 253px;
+    font-size: 42px;
+    font-family: fantasy;
+}
+div h3
+{
+    color: #6482b7;
+    position: relative;
+    top: 243px;
+    left: 31%;
+    font-size: 27px;
+    text-shadow: 1px 2px 3px #ccc;
+}
+div img
+{
+    position: relative;
+    top: 248px;
+    left: 42%;
+    width: 19%;
+    opacity: .5;
+}
+div p
+{
+    position: relative;
+    top: 60px;
+    left: 37%;
+    font-size: 44px;
+    color: white;
+    background-color: dodgerblue;
+    width: 29%;
+    text-align: center;
+    opacity: .5;
+    font-weight: bolder;
+    border: 1px dashed; 
+}
